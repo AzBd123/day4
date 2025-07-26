@@ -22,7 +22,7 @@ const Login = () => {
       setErrorMsg("No user found. Redirecting to signup...");
       setSuccessMsg("");
       setTimeout(() => {
-        navigate("day3/signup");
+        navigate("/day3/signup");
       }, 2500);
       return;
     }
